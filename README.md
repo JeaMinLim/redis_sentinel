@@ -6,6 +6,7 @@ Before run this code, execute redis in Sentinel mode first.
 To change Server IP address or port, please edit _**application.yaml**_, or you can write on _**Config.java**_.
 To change Key-value, please edit _**application.yaml**_, or you can write on _**Controller.java**_.
 
+For supporting application.yaml in Sentinel mode, I add string parsing codes for **lettuceConnectionFactory()** in _**Config.java**_  
 
 I also upload test project for Redis Sentinel and Cluster mode.
 
